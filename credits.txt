@@ -1,0 +1,4 @@
+credits to github.com/Scarso327 for the framework (v1.1.2)
+
+modified by myself to learn some sqf.
+
