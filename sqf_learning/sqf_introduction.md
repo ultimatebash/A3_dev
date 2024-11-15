@@ -94,8 +94,6 @@ System: 6
 
 As you can see, _unitsArray was not automatically updated as it would have been if it was not generated each time. If allUnits was just a global variable with a reference to some internal managed array, our private variable should have had reflected the change as value types are passed by reference. The reason for this is because allUnits and other nularsic operators just return the current state of something and do not return a reference to eg. an array containing all units. It is generated each time, which is why some of theese operators are more expensive to run then just using a variable.
 
-
-
 # Unary Operators
 The unary operators are operators that expect an argument on their right side (unary <argument>). They always will take the first argument that occurs.
 
